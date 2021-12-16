@@ -1,1 +1,1 @@
-# ga2
+Proyecto de prueba con GithubActions

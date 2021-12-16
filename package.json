@@ -1,0 +1,31 @@
+{
+  "name": "ga2",
+  "version": "1.0.0",
+  "description": "Proyecto de prueba con GithubActions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecastrot/ga2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ecastrot/ga2/issues"
+  },
+  "homepage": "https://github.com/ecastrot/ga2#readme",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "json",
+      "html"
+    ]
+  }
+}
